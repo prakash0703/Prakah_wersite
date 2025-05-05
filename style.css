@@ -1,0 +1,260 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    padding: 0%;
+    margin: 0%;
+    background-color: #181818;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+header, nav, ul, li,a {
+    justify-content: end;
+    font-weight: 300;
+    text-align: end;
+    font-size: 24px;
+    display: flex;
+    padding: 5px;
+    margin-top: 3px;
+    color: white;
+    text-decoration: none;
+    position: relative;
+}
+li:hover{
+    color: #20BCFF;
+    text-decoration: underline;
+    
+}
+.one{
+    text-align: center;
+    font-size: 40px;
+    padding-top: 10px;
+    margin-top: 100px;
+}
+.three{
+    text-align: center;
+    font-size: 40px;
+}
+.two{
+    text-align: center;
+    font-size: 40px;
+    color: #20BCFF;
+}
+.aboutme{
+    text-align: center;
+    color: #20BCFF;
+    padding: 30px;
+    margin: 30px;
+    font-size: 64px;
+}
+.para{
+    text-align: justify;
+    font-size: 32px;
+    justify-content: center;
+    padding: 10px;
+}
+span{
+    color: #20BCFF;
+}
+.service{
+    text-align: center;
+    color: #20BCFF;
+    padding: 20px;
+    font-size: 34px;
+}
+.uiux, .graphic, .website{
+    border-radius: 25px;
+    border-color: #303030;
+    height: 200px;
+    width:400px;
+    border-style: solid;
+    justify-content: center;
+    text-align: center;
+    font-size: 36px;
+    align-items: center;
+    padding: 30px;
+    word-wrap: break-word;
+}
+#services{
+    display: flex;
+    justify-content: center;
+    display: flex;
+    padding: 30px;
+    margin: 30px;
+    gap: 10px 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.conatiner2{
+    text-align: center;
+    color: #20BCFF;
+    font-size: 34px;
+    padding: 30px;
+    margin: 30px;
+}
+img{
+    border-radius: 25px;
+}
+.box1, .box2, .box3, .box4, .box5, .box6{
+    border-radius: 25px;
+    border-style: solid;
+    border-color: #303030;
+    height: 720px;
+    width: 600px;
+}
+h2{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6{
+    text-align: justify;
+    font-size: 18px;
+    color: #828282;
+    padding: 5px;
+}
+button{
+    text-align: center;
+    margin: 2px;
+    border-color: #20BCFF;
+    font-weight: 200;
+    background: none;
+    color:#20BCFF;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    width: 200px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 30px;
+}
+.bt1{
+    text-align: center;
+    margin: 30px;
+}
+#Projects{
+    display: flex;
+    overflow: auto;
+    flex-wrap: wrap;
+    gap: 30px 10px;
+    padding: 20px;
+    justify-content: space-around;
+}
+.container3{
+    margin: 30px;
+    color: #20BCFF;
+    font-size: 36px;
+    text-align: center;
+}
+.container4{
+    text-align: center;
+    margin: 10px;
+    font-size: 32px;
+}
+.behance, .instagram, .linkedin, .github, .mail, .resume{
+    text-align: center;
+    padding: 30px;
+    font-size: 36px;
+    cursor: pointer; 
+}
+.icons{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.phone{
+    text-align: left;
+    font-size: 28px;
+    display: flex;
+    padding: 10px;
+}
+.fa-phone{
+    padding: 10px;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}
+@media screen and (max-width:767px){
+    .hero-image{
+        width: 100%;
+        flex-direction: column;
+    }
+    .container .one, .two, .three{
+        font-size: 24px;
+        flex-direction: column;
+    }
+    nav,ul,li,a{
+        display: none;
+    }
+    button{
+        font-size: 24pz;
+        width: 320px;
+        height: 50px;
+        flex-direction: column;
+
+    }
+    .button{
+        font-size: 24px;
+        width: 50%;
+        height: 50px;
+        flex-direction: column;
+    }
+    .aboutme{
+        text-align: center;
+        font-size: 30px;
+        flex-direction: column;
+    }
+    .para{
+        text-align: justify;
+        font-size: 10px;
+        flex-direction: column;
+        padding: 10px;
+    }
+    .service{
+        text-align: center;
+        flex-direction: column;
+        font-size: 20px;
+    }
+    h2{
+        font-size: 20px;
+        flex-direction: column;
+    }
+    .uiux, .graphic, .website{
+        font-size: 18px;
+        width: 100%;
+        font-size: 20px;
+        flex-direction: column;
+
+    }
+    .container2{
+        font-size: 18px;
+        flex-direction: column;
+    }
+    .container3{
+        font-size: 18px;
+        flex-direction: column;
+    }
+    .phone{
+        font-size: 20px;
+        flex-direction: column;
+        text-align: left;
+    }
+    .icons{
+        font-family: 18px;
+        flex-wrap: wrap;
+    }
+    .box1, .box2, .box3, .box4, .box5, .box6{
+        
+        min-width:280px;
+        /* padding-inline: 5px; */
+    }
+    button{
+        text-align: center;
+       
+        width: 200px ;
+       
+    }
+}
